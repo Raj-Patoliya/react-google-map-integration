@@ -24,8 +24,7 @@ const center = { lat: 48.8584, lng: 2.2945 };
 
 function App() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyDwIVgIMPOY0UMpmXrqO0hOBNSTM7dH2pA", // Simba sir
-    // googleMapsApiKey: "AIzaSyCV7sQtN3fwMONKMSl-u_NsWyUEBvIQa9Y", //Smit Shah
+    googleMapsApiKey: "your google map API key", 
     libraries: ["places"],
   });
 
